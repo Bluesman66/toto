@@ -13,6 +13,7 @@ public static class DependencyInjection
         services.AddTransient<TodoItemPresenter>();
         services.AddTransient<MainForm>();
         services.AddTransient<TodoItemForm>();
+        services.AddTransient<StatusChangeForm>();
 
         return services;
     }
